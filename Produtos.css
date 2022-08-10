@@ -15,8 +15,6 @@ nav {
 	right: 0;
 }
 
-
-
 nav li {
 	display: inline;
 	margin: 0 0 0 15px;
@@ -28,6 +26,11 @@ nav a {
 	font-weight: bolder;
 	font-size: 22px;
 	text-decoration: none;
+}
+
+nav a:hover {
+	color: #0000FF;
+	text-decoration: underline;
 }
 
 .produtos {
@@ -46,6 +49,18 @@ nav a {
     border-radius: 10px;
 }
 
+.produtos li:hover {
+	border-color: #0000FF;
+}
+
+.produtos li:active {
+	border-color: #FF0000;
+}
+
+.produtos li:hover h2 {
+	font-size: 36px;
+}
+
 .produtos h2 {
 	font-size: 30px;
 	font-weight: bold;
@@ -59,4 +74,15 @@ nav a {
 	font-size: 22px;
 	font-weight: bold;
 	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	background: url("https://live.staticflickr.com/65535/52124393431_aa20678b42_w.jpg");
+	padding: 40px 0;
+}
+
+.Copyright {
+	color: #FFFFFF;
+	font-size: 13px;
 }
