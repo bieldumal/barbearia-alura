@@ -1,4 +1,4 @@
-header {
+ header {
 	background: #BBBBBB;
 	padding: 20px 0;
 }
@@ -36,7 +36,7 @@ nav a:hover {
 .produtos {
 	width: 940px;
 	margin: 0 auto;
-	padding: 50px;
+	padding: 50px 0;
 }
 
 .produtos li {
@@ -45,6 +45,8 @@ nav a:hover {
 	width: 30%;
 	vertical-align: top;
 	margin: 0 1.0%;
+	padding: 30px 20px;
+	box-sizing: border-box;
 	border: 2px solid #000000;
     border-radius: 10px;
 }
@@ -85,4 +87,27 @@ footer {
 .Copyright {
 	color: #FFFFFF;
 	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input, form textarea {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
